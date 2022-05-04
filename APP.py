@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-st.cache
+@ st.cache
 def run_fxn(n: int) -> list:
     return range(n)
 def main():
