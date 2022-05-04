@@ -1,4 +1,9 @@
+import datetime
+import time
+import pandas as pd
 import streamlit as st
+from PIL import Image
+
 st.cache
 def run_fxn(n: int) -> list:
     return range(n)
@@ -10,7 +15,4 @@ def main():
     st.subheader("Buttons")
     if st.button("Que Son?"):
         st.text("Son hongos microscópicos, habitualmente unicelululares")
-")
-    else:
-        st.text("")
     st.subheader("FALSAS LEVADURAS")
