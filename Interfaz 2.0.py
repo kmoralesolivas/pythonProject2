@@ -7,5 +7,10 @@ def main():
     
     st.title( "MICROBIOLOGIA")
     st.header("LEVADURAS")
+    st.subheader("Buttons")
+    if st.button("QUE SON"):
+        st.text("Streamlit es Cool")
+    else:
+        st.text("")
     st.subheader("FALSAS LEVADURAS")
     
