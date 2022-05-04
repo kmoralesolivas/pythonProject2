@@ -6,4 +6,7 @@ def main():
     """Generación de la webapp con streamlit"""
     # Definir título
     st.title( "MICROBIOLOGIA")
+        # Definir Header/Subheader
+    st.header("LEVADURAS")
+    st.subheader("FALSAS LEVADURAS")
     
