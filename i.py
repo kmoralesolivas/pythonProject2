@@ -4,4 +4,4 @@ header = st.beta_container()
 dataset = st.beta_container()
 
 with header:
-  st.Title('Levaduras')
+  st.title('Levaduras')
