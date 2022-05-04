@@ -1,6 +1,6 @@
-from tkinter import *
+import streamlit as st 
 
-root = Tk()
+root = st()
 root.state('zoomed')
 root.geometry('1280x720')
 root.title("Levaduras")
