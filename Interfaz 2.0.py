@@ -4,9 +4,8 @@ def run_fxn(n: int) -> list:
     return range(n)
 def main():
     """Generación de la webapp con streamlit"""
-    # Definir título
+    
     st.title( "MICROBIOLOGIA")
-        # Definir Header/Subheader
     st.header("LEVADURAS")
     st.subheader("FALSAS LEVADURAS")
     
