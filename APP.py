@@ -22,7 +22,7 @@ def main():
     if st.button("LEVADURAS"):
         st.text("Las levaduras son hongos microscópicos, habitualmente unicelulares. Aunque la")
         st.text("aparición en nuestros alimentos generalmente nos hace pensar que no es bueno,")
-        st. text("cuando se usan de forma controloda pueden llegar a ser beneficiosas.")
+        st.text("cuando se usan de forma controloda pueden llegar a ser beneficiosas.")
         st.text("Las levaduras que contaminan los alimentos, con frecuencia son especies bien")
         st.text("conocidas que provocan cambios indeseables en ellos. Estos cambios pueden")
         st.text("manifestarse de dos formas, con una turbidez o una formación de una película")
@@ -31,10 +31,10 @@ def main():
         st.text("")
         
     if st.button("TIPOS"):
-        st. text("Las levaduras esultan ser muy importantes y útiles para nosotros por su capacidad de")
-        st. text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
-        st. text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su metabolismo")
-        st. texte("es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que oxidan los ácidos")
+        st.text("Las levaduras esultan ser muy importantes y útiles para nosotros por su capacidad de")
+        st.text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
+        st.text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su metabolismo")
+        st.text("es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que oxidan los ácidos")
         st.text("orgánicos y el alcohol, y ademas contribuyen en la producción de los sabores de ")
         st.text("los vinos, se les conoce como oxidativas. Estas pueden crecer en forma de película, de velo,")
         st.text("o de espuma, y su metabolismom es aerobio.")
