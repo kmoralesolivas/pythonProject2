@@ -23,10 +23,9 @@ def main():
         st.text("Las levaduras son hongos microscópicos, habitualmente unicelulares. Aunque la")
         st.text("aparición en nuestros alimentos generalmente nos hace pensar que no es bueno,")
         st. text("cuando se usan de forma controloda pueden llegar a ser beneficiosas.")
-        st. text("Las levadura  resulta tan importante y útil para nosotros por su capacidad de
-        st. text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso 
+        st. text("Resultan ser muy importantes y útiles para nosotros por su capacidad de")
+        st. text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
         st. text("conocido como  fermentación.")
-
     else:
         st.text("")
   
