@@ -58,8 +58,14 @@ def main():
         st.text("en dos o por gemacion, la cual consiste en la formación de protuberancias llamadas")
         st.text("yemas en la celula madre y que al crecer y desarrollarse,originan nuevos organismos.")
         st.text("Éstos pueden separarse de la celula madre,o bien quedar unidos,formando una colonia.")
+        st.text("Existe tambien la reproduccion sexual en donde se liberan las ascosporas que quedan")
+        st.text("en el interior de la levadura, y germinan.")
     else:
         st.text("")
+        
+    if st.button("EJEMPLO DE LEVADURAS")
+    st.text("Genero Schizosaccharomyces;Deterioro de frutas tropicales, melazas y miel.Se emplea")
+    st.text("en la desacidificación de vinos, pues metaboliza el ácido málico en alcohol.")
     
     st.subheader("ENCUESTA")
     status = st.radio("APRENDI", ("SI", "NO"))
