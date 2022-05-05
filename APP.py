@@ -91,7 +91,7 @@ def main():
          st.text("elevada acidez")
         
          st.text("3. Género Kloeckera: son levaduras apiculadas que crecen frecuentemente sobre frutas,")
-        st.text("zumos de fruta y vinos, deteriorándolos.")
+         st.text("zumos de fruta y vinos, deteriorándolos.")
     
     else:
         st.text("")
