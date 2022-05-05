@@ -36,14 +36,18 @@ def main():
         st.text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su")
         st.text("metabolismo es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que")
         st.text("oxidan los ácidos orgánicos y el alcohol, y ademas contribuyen en la producción de")
-        st.text("los sabores de los vinos, se les conoce como oxidativas. Estas pueden crecer en forma")
-        st.text("de película, de velo, o de espuma, y su metabolismom es aerobio.")
-        
+        st.text("los sabores de los vinos, se les conoce como oxidativas. Estas pueden crecer en")
+        st.text("forma de película, de velo, o de espuma, y su metabolismom es aerobio.") 
     else:
         st.text("")
   
-    if st.button("FALSAS LEVADURAS"):
+    if st.button("CLASIFICACION"):
         st.text("Son hongos microscópicos, habitualmente unicelulares")
+    else:
+        st.text("")
+        
+    if st.button("REPRODUCCION"):
+        st.text("")
     else:
         st.text("")
     
@@ -55,7 +59,7 @@ def main():
         st.warning("BYE")
     
     st.subheader("SATISFACCION")
-    level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 5)
+    level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 10)
     st.write("Nivel:", level)
     
     st.subheader("Deja aqui un comentario")
@@ -63,12 +67,6 @@ def main():
     if st.button("Aceptar "):
         result = message.title()
         st.success(result)
-        
-    st.header("Trabajar con archivos de imágenes, audio o vídeos")
-    st.subheader("Archivo de imagen")
-    img = Image.open("example.jpg")
-    st.image(img, width=300, caption="Simple Imagen")
-    
-    st.write(list(run_fxn(10)))
+         
 if __name__ == "__main__":
     main()
