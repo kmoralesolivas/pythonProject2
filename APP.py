@@ -14,7 +14,7 @@ def main():
     st.header("LEVADURAS")
     
     st.header("Temas")
-    st.definition("Definicion")
+    st.text("Definicion")
     st.info("Información")
     st.example("Ejemplo")
     
