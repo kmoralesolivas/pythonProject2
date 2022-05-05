@@ -46,12 +46,18 @@ def main():
         st.text("")
   
     if st.button("CLASIFICACION"):
-        st.text("Son hongos microscópicos, habitualmente unicelulares")
+        st.text("Las levaduras que pueden reproducirse sexualmente se conocen como verdaderas,")
+        st.text("este proceso implica la formación de ascosporas, sirviendo la propia levadura como") 
+        st.text("asca, de aquí que ellas se clasifican como Ascomicetos; por el contrario las falsas")
+        st.text("que no producen ascosporas, pertenecen a las levaduras imperfectos.")
     else:
         st.text("")
         
     if st.button("REPRODUCCION"):
-        st.text("")
+        st.text("Puede ser asexualmente, ya sea por fisión binaria en donde una célula se divide")
+        st.text("en dos o por gemacion la cual consiste en la formación de protuberancias llamadas")
+        st.text("yemas en la celula madre y que al crecer y desarrollarse, originan nuevos organismos.")
+        st.text("Éstos pueden separarse de la celula madre, o bien quedar unidos,formando una colonia.")
     else:
         st.text("")
     
