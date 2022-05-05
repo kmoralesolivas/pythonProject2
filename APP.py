@@ -15,8 +15,7 @@ def main():
     
     st.header("Temas")
     st.info("Información")
-    st.example("Ejemplo")
-    
+   
     st.header("Widgets:")
     st.subheader("Checkbox")
     
