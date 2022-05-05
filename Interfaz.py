@@ -1,4 +1,4 @@
-import streamlit as st 
+from tkinter import*
 
 root = st()
 root.state('zoomed')
