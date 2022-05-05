@@ -31,13 +31,13 @@ def main():
         st.text("")
         
     if st.button("TIPOS"):
-        st.text("Las levaduras esultan ser muy importantes y útiles para nosotros por su capacidad de")
-        st.text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
-        st.text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su metabolismo")
-        st.text("es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que oxidan los ácidos")
-        st.text("orgánicos y el alcohol, y ademas contribuyen en la producción de los sabores de ")
-        st.text("los vinos, se les conoce como oxidativas. Estas pueden crecer en forma de película, de velo,")
-        st.text("o de espuma, y su metabolismom es aerobio.")
+        st.text("Las levaduras resultan ser muy importantes y útiles para nosotros por su capacidad")
+        st.text("de llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
+        st.text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su")
+        st.text("metabolismo es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que")
+        st.text("oxidan los ácidos orgánicos y el alcohol, y ademas contribuyen en la producción de")
+        st.text("los sabores de los vinos, se les conoce como oxidativas. Estas pueden crecer en forma")
+        st.text("de película, de velo, o de espuma, y su metabolismom es aerobio.")
         
     else:
         st.text("")
