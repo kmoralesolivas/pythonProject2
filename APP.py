@@ -10,7 +10,11 @@ def run_fxn(n: int) -> list:
 def main():
     """Generación de la webapp con streamlit"""
     st.sidebar.header("Acerca")
-    st.sidebar.text("Genralidades de las levaduras ")
+    st.sidebar.text("Genralidades de las levaduras")
+    st.sidebar.text("Tipos de Levaduras")
+    st.sidebar.text("Clasificacion")
+    st.sidebar.text("Reproduccion")
+    st.sidebar.text("Ejemplos")
 
     st.title("MICROBIOLOGIA")
     st.header("LEVADURAS")
@@ -67,6 +71,3 @@ def main():
     if st.button("Aceptar "):
         result = message.title()
         st.success(result)
-         
-if __name__ == "__main__":
-    main()
