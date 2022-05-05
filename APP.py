@@ -110,7 +110,6 @@ def main():
     message = st.text_area("Escriba un mensaje")
     if st.button("Aceptar "):
         result = message.title()
-        st.success(result)
         
 if __name__ == "__main__":
      main()
