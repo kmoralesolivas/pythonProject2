@@ -63,9 +63,20 @@ def main():
     else:
         st.text("")
         
-    if st.button("EJEMPLO DE LEVADURAS")
-    st.text("Genero Schizosaccharomyces;Deterioro de frutas tropicales, melazas y miel.Se emplea")
+    if st.button("EJEMPLOS DE LEVADURAS")
+    st.text("Genero Schizosaccharomyces:Deterioro de frutas tropicales, melazas y miel.Se emplea")
     st.text("en la desacidificación de vinos, pues metaboliza el ácido málico en alcohol.")
+    st.text("Género Saccharomyces:las especies de este género presentan generalmente células")
+    st.text("redondas, ovales o alargadas; algunas pueden formar pseudomicelio. Se reproducen")
+    st.text("mayoritariamente por gemación multipolar, aunque también pueden hacerlo por")
+    st.text("formación de esporas sexuales. S. cerevisiae es la especie más utilizada. Sus")
+    st.text("diferentes variedades llevan a cabo la fermentación del pan, de la cerveza y de los") 
+    st.text("vinos.")
+    st.text("Género Pichia: tiene forma oval y puede formar pseudomicelio; es una levadura")
+    st.text("oxidativa que forma velos sobre la superficie de vinos y cervezas, alterándolos.")
+    
+    else:
+        st.text("")
     
     st.subheader("ENCUESTA")
     status = st.radio("APRENDI", ("SI", "NO"))
