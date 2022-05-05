@@ -38,7 +38,8 @@ def main():
         st.text("orgánicos y el alcohol, y ademas contribuyen en la producción de los sabores de ")
         st.text("los vinos, se les conoce como oxidativas. Estas pueden crecer en forma de película, de velo,")
         st.text("o de espuma, y su metabolismom es aerobio.")
-     else:
+        
+    else:
         st.text("")
   
     if st.button("FALSAS LEVADURAS"):
