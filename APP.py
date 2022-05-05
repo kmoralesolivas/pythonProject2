@@ -10,7 +10,7 @@ def run_fxn(n: int) -> list:
 def main():
     """Generación de la webapp con streamlit"""
     st.sidebar.header("Acerca")
-    st.sidebar.text("Tutorial de streamlit ")
+    st.sidebar.text("Genralidades de las levaduras ")
 
     st.title("MICROBIOLOGIA")
     st.header("LEVADURAS")
@@ -20,8 +20,8 @@ def main():
     
     st.subheader("TEMAS")
     if st.button("LEVADURAS"):
-        st.text("Son hongos microscópicos, habitualmente unicelulares")
-        st.text("Aunque la apariciónen nuestros alimentos generalmente nos hace pensar que no es bueno,")
+        st.text("Las levaduras son hongos microscópicos, habitualmente unicelulares.Aunque la")
+        st.text("aparición en nuestros alimentos generalmente nos hace pensar que no es bueno,")
         st. text ("con las levaduras no es asi,pues llevan usandose de forma controlada miles de años.")
     else:
         st.text("")
