@@ -27,10 +27,18 @@ def main():
         st.text("conocidas que provocan cambios indeseables en ellos. Estos cambios pueden")
         st.text("manifestarse de dos formas, con una turbidez o una formación de una película")
         st.text("en la superficie de los líquidos")
-        st. text("Resultan ser muy importantes y útiles para nosotros por su capacidad de")
-        st. text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
-        st. text("conocido como  fermentación.")
     else:
+        st.text("")
+        
+    if st.button("TIPOS"):
+        st. text("Las levaduras esultan ser muy importantes y útiles para nosotros por su capacidad de")
+        st. text("llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
+        st. text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su metabolismo")
+        st. texte("es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que oxidan los ácidos")
+        st.text("orgánicos y el alcohol, y ademas contribuyen en la producción de los sabores de ")
+        st.text("los vinos, se les conoce como oxidativas. Estas pueden crecer en forma de película, de velo,")
+        st.text("o de espuma, y su metabolismom es aerobio.")
+     else:
         st.text("")
   
     if st.button("FALSAS LEVADURAS"):
