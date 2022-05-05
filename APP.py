@@ -44,39 +44,6 @@ def main():
     img = Image.open("example.jpg")
     st.image(img, width=300, caption="Simple Imagen")
     
-    st.subheader("Texto con write")
-    st.write("Texto con write")
-    st.write(range(10))
-    st.header("Desplegando código puro y json")
-    st.subheader("Código puro")
-    st.code("import numpy as np")
-    with st.echo():
-        df = pd.DataFrame()
-    st.subheader("Desplegando json")
-    st.text("Mostrando JSON")
-    st.json({"nombre": "Jhon", "apellido": "Doe", "genero": "masculino"})
-    st.header("Mostrar barra de progreso, spinner y balloons")
-    st.subheader("Barra de progreso")
-    my_bar = st.progress(0)
-    for p in range(10):
-        my_bar.progress(p + 1)
-    st.subheader("Spinner")
-    with st.spinner("Espere .."):
-        time.sleep(5)
-        st.success("Finalizó!")
-    st.subheader("Balloons")
-    
-    st.balloons()
-    st.header("Trabajando con data science")
-    df = pd.read_csv("Venezuela.csv", index_col=0)
-    st.subheader("Dataframe")
-    st.dataframe(df)
-    st.subheader("tabla")
-    st.table(df.head())
-    st.subheader("gráfica")
-    st.line_chart((df))
-   
-    st.header("Trabajando con funciones")
     st.write(list(run_fxn(10)))
 if __name__ == "__main__":
     main()
