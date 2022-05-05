@@ -15,7 +15,6 @@ def main():
     
     today = st.date_input("Hoy es", datetime.datetime.now())
     st.text(f"{today}")
-    st.subheader("Entrada de tiempo")
     
     st.subheader("TEMAS")
     if st.button("LEVADURAS"):
