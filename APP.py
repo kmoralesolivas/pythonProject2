@@ -11,15 +11,12 @@ def main():
     """Generación de la webapp con streamlit"""
     
     st.title("MICROBIOLOGIA")
-    st.header("Este es un header")
-    st.subheader("Este es un subheader")
-    st.text("Texto: Hola Streamlit")
-    st.markdown("# Este es un markdown h1 \n ## Este es un h2 \n ### Este es un h3")
+    st.header("LEVADURAS")
     
-    st.header("Colores de texto y mensajes de error")
-    st.success("Successful")
-    st.info("Información!")
-    st.warning("warning")
+    st.header("Temas")
+    st.def("Definicion")
+    st.info("Información")
+    st.example("Ejemplo")
     
     st.header("Widgets:")
     st.subheader("Checkbox")
@@ -28,26 +25,13 @@ def main():
         st.text("Mostrar u ocultar Widget")
     st.subheader("Radio buttons")
     
-    status = st.radio("REPETIR", ("SI", "NO"))
+    status = st.radio("APRENDI", ("SI", "NO"))
     if status == "SI":
-        st.success("HOLA")
+        st.success("EXCELENTE")
     else:
         st.warning("BYE")
-    st.subheader("SelectBox")
     
-    occupation = st.selectbox(
-        "Tu Ocupación", ["Programador", "Cientifico de datos", "Doctor", "Emprendedor"]
-    )
-    st.write("Opción seleccionada:", occupation)
-    st.subheader("MultiSelect")
-    
-    location = st.multiselect(
-        "Donde trabajas?",
-        ("Londres", "Nueva York", "Accra", "Kiev", "Nepal", "Buenos Aires", "Caracas"),
-    )
-    st.write("Seleccionó:", len(location), "locaciones")
-    st.subheader("Slider")
-    
+    st.subheader("SATISFACCION")
     level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 5)
     st.write("Nivel:", level)
     st.subheader("TEMAS")
@@ -59,16 +43,12 @@ def main():
     st.header("Como recibir una entrada y procesarla con streamlit?")
     st.subheader("Recibiendo texto")
     
-    firstname = st.text_input("Escriba su nombre:")
-    if st.button("Aceptar"):
-        result = firstname.title()
-        st.success(result)
-    st.subheader("Área de texto")
-    
+    st.subheader("Deja aqui un comentario")
     message = st.text_area("Escriba un mensaje")
     if st.button("Aceptar "):
         result = message.title()
         st.success(result)
+        
     st.subheader("Entrada de fecha")
     
     today = st.date_input("Hoy es", datetime.datetime.now())
@@ -82,16 +62,6 @@ def main():
     st.subheader("Archivo de imagen")
     img = Image.open("example.jpg")
     st.image(img, width=300, caption="Simple Imagen")
-    st.subheader("Archivo de vídeo")
-    
-    vid_file = open("Streamlit Campo magnético-uRDO3trlSG8.mp4", "rb").read()
-    # vid_bytes = vid_file.read()
-    st.video(vid_file)
-    st.subheader("Archivo de audio")
-    
-    audio_file = open("040-data-science-year-in-review.mp3", "rb").read()
-    st.audio(audio_file, format="audio/mp3")
-    st.header("Otras opciones que permite la función write")
     
     st.subheader("Texto con write")
     st.write("Texto con write")
