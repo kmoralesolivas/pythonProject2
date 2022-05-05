@@ -12,18 +12,18 @@ def main():
     st.sidebar.header("Acerca")
     st.sidebar.text("Genralidades de las levaduras")
     st.sidebar.text("Tipos de Levaduras")
-    st.sidebar.text("Clasificacion")
-    st.sidebar.text("Reproduccion")
+    st.sidebar.text("Clasificación")
+    st.sidebar.text("Reproducción")
     st.sidebar.text("Ejemplos")
 
-    st.title("MICROBIOLOGIA")
+    st.title("MICROBIOLOGÍA")
     st.header("LEVADURAS")
     
     today = st.date_input("Hoy es", datetime.datetime.now())
     st.text(f"{today}")
     
     st.subheader("TEMAS")
-    if st.button("DEFINICION"):
+    if st.button("DEFINICIÓN"):
         st.text("Las levaduras son hongos microscópicos, habitualmente unicelulares. Aunque la")
         st.text("aparición en nuestros alimentos generalmente nos hace pensar que no es bueno,")
         st.text("cuando se usan de forma controloda pueden llegar a ser beneficiosas.")
@@ -45,7 +45,7 @@ def main():
     else:
         st.text("")
   
-    if st.button("CLASIFICACION"):
+    if st.button("CLASIFICACIÓN"):
         st.text("Las levaduras que pueden reproducirse sexualmente se conocen como verdaderas,")
         st.text("este proceso implica la formación de ascosporas, sirviendo la propia levadura como") 
         st.text("asca, de aquí que ellas se clasifican como Ascomicetos; por el contrario las falsas")
@@ -53,7 +53,7 @@ def main():
     else:
         st.text("")
         
-    if st.button("REPRODUCCION"):
+    if st.button("REPRODUCCIÓN"):
         st.text("Puede ser asexualmente, ya sea por fisión binaria en donde una célula se divide")
         st.text("en dos o por gemacion, la cual consiste en la formación de protuberancias llamadas")
         st.text("yemas en la celula madre y que al crecer y desarrollarse,originan nuevos organismos.")
@@ -67,7 +67,7 @@ def main():
         st.text("1. Genero Schizosaccharomyces:Deterioro de frutas tropicales, melazas y miel.Se")
         st.text("emplea en la desacidificación de vinos, pues metaboliza el ácido málico en alcohol.")
         
-        st.text("2. Género Saccharomyces:las especies de este género presentan generalmente células")
+        st.text("2. Género Saccharomyces:Las especies de este género presentan generalmente células")
         st.text("redondas, ovales o alargadas; algunas pueden formar pseudomicelio. Se reproducen")
         st.text("mayoritariamente por gemación multipolar, aunque también pueden hacerlo por")
         st.text("formación de esporas sexuales. S. cerevisiae es la especie más utilizada. Sus")
@@ -88,7 +88,7 @@ def main():
          st.text("2. Género Torulopsis: levaduras fermentativas, redondas u ovaladas, que se reproducen")
          st.text("por gemación multilateral y son causa de muchos problemas en las cervecerías. Algunas")
          st.text("especies pueden alterar la leche condensada, concentrados de frutas y alimentos de")
-         st.text("elevada acidez")
+         st.text("elevada acidez.")
         
          st.text("3. Género Kloeckera: son levaduras apiculadas que crecen frecuentemente sobre frutas,")
          st.text("zumos de fruta y vinos, deteriorándolos.")
@@ -97,17 +97,17 @@ def main():
         st.text("")
     
     st.subheader("ENCUESTA")
-    status = st.radio("APRENDI", ("SI", "NO"))
+    status = st.radio("APRENDÍ", ("SI", "NO"))
     if status == "SI":
         st.success("EXCELENTE")
     else:
         st.warning("BYE")
     
-    st.subheader("SATISFACCION")
-    level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 10)
+    st.subheader("SATISFACCIÓN")
+    level = st.slider("¿QUÉ TE PARECIÓ EL CONTENIDO?", 1, 10)
     st.write("Nivel:", level)
     
-    st.subheader("Deja aqui una aportacion al contenido")
+    st.subheader("Deja aquí una aportación al contenido")
     message = st.text_area("Escriba un mensaje")
     if st.button("Aceptar "):
         result = message.title()
