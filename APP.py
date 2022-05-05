@@ -38,7 +38,7 @@ def main():
         st.text("Las levaduras resultan ser muy importantes y útiles para nosotros por su capacidad")
         st.text("de llevar a cabo la descomposición de azúcares e hidratos de carbono en un proceso")
         st.text("conocido como  fermentación. A este tipo se les conoce como fermentativas. Su")
-        st.text("metabolismo es facultativo, pudiendo usar la vía aeróbica o anaeróbica. Las que")
+        st.text("metabolismo es facultativo;pueden usar la vía aeróbica o anaeróbica. Las que")
         st.text("oxidan los ácidos orgánicos y el alcohol, y ademas contribuyen en la producción de")
         st.text("los sabores de los vinos, se les conoce como oxidativas. Estas pueden crecer en")
         st.text("forma de película, de velo, o de espuma, y su metabolismom es aerobio.") 
@@ -55,9 +55,9 @@ def main():
         
     if st.button("REPRODUCCION"):
         st.text("Puede ser asexualmente, ya sea por fisión binaria en donde una célula se divide")
-        st.text("en dos o por gemacion la cual consiste en la formación de protuberancias llamadas")
-        st.text("yemas en la celula madre y que al crecer y desarrollarse, originan nuevos organismos.")
-        st.text("Éstos pueden separarse de la celula madre, o bien quedar unidos,formando una colonia.")
+        st.text("en dos o por gemacion, la cual consiste en la formación de protuberancias llamadas")
+        st.text("yemas en la celula madre y que al crecer y desarrollarse,originan nuevos organismos.")
+        st.text("Éstos pueden separarse de la celula madre,o bien quedar unidos,formando una colonia.")
     else:
         st.text("")
     
