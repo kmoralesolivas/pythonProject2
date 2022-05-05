@@ -13,7 +13,6 @@ def main():
     st.title("MICROBIOLOGIA")
     st.header("LEVADURAS")
     
-    st.subheader("Registra la fecha de entrada")
     today = st.date_input("Hoy es", datetime.datetime.now())
     st.text(f"{today}")
     st.subheader("Entrada de tiempo")
