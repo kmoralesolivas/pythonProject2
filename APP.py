@@ -88,7 +88,7 @@ def main():
     st.subheader("Archivo de vídeo")
     
     vid_file = open("Streamlit Campo magnético-uRDO3trlSG8.mp4", "rb").read()
-    = vid_file.read()
+    # vid_bytes = vid_file.read()
     st.video(vid_file)
     st.subheader("Archivo de audio")
     
