@@ -10,7 +10,7 @@ def run_fxn(n: int) -> list:
 def main():
     """Generación de la webapp con streamlit"""
     
-    st.title("Título: Tutorial de Streamlit")
+    st.title("MICROBIOLOGIA")
     st.header("Este es un header")
     st.subheader("Este es un subheader")
     st.text("Texto: Hola Streamlit")
@@ -20,10 +20,7 @@ def main():
     st.success("Successful")
     st.info("Información!")
     st.warning("warning")
-    st.error("Error")
-    st.exception("NameError('no está definido')")
-    st.header("Obtener información de ayuda de Python")
-    st.help(range)
+    
     st.header("Widgets:")
     st.subheader("Checkbox")
     
@@ -31,11 +28,11 @@ def main():
         st.text("Mostrar u ocultar Widget")
     st.subheader("Radio buttons")
     
-    status = st.radio("Cual es su estatus", ("Activo", "Inactivo"))
-    if status == "Activo":
-        st.success("Estas activo")
+    status = st.radio("REPETIR", ("SI", "NO"))
+    if status == "SI":
+        st.success("HOLA")
     else:
-        st.warning("Inactivo")
+        st.warning("BYE")
     st.subheader("SelectBox")
     
     occupation = st.selectbox(
@@ -51,12 +48,12 @@ def main():
     st.write("Seleccionó:", len(location), "locaciones")
     st.subheader("Slider")
     
-    level = st.slider("Cual es tu nivel?", 1, 5)
+    level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 5)
     st.write("Nivel:", level)
-    st.subheader("Buttons")
+    st.subheader("TEMAS")
     
-    if st.button("Acerca"):
-        st.text("Streamlit es Cool")
+    if st.button("LEVADURAS"):
+        st.text("Hongos unicelulares")
     else:
         st.text("")
     st.header("Como recibir una entrada y procesarla con streamlit?")
