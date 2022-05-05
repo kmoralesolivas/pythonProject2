@@ -105,8 +105,7 @@ def main():
     
     st.subheader("SATISFACCIÓN")
     level = st.slider("¿QUÉ TE PARECIÓ EL CONTENIDO?", 1, 10)
-    st.write("Nivel:", level)
-    
+   
     st.subheader("Deja aquí una aportación al contenido")
     message = st.text_area("Escriba un mensaje")
     if st.button("Aceptar "):
