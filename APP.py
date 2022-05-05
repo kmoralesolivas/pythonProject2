@@ -15,13 +15,8 @@ def main():
     
     st.header("Temas")
     st.info("Información")
-   
-    st.header("Widgets:")
-    st.subheader("Checkbox")
-    
-    if st.checkbox("Show/Hide"):
-        st.text("Mostrar u ocultar Widget")
-    st.subheader("Radio buttons")
+  
+    st.subheader("ENCUESTA")
     
     status = st.radio("APRENDI", ("SI", "NO"))
     if status == "SI":
@@ -38,8 +33,6 @@ def main():
         st.text("Hongos unicelulares")
     else:
         st.text("")
-    st.header("Como recibir una entrada y procesarla con streamlit?")
-    st.subheader("Recibiendo texto")
     
     st.subheader("Deja aqui un comentario")
     message = st.text_area("Escriba un mensaje")
