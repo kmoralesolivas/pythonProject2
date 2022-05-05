@@ -80,8 +80,8 @@ def main():
     else:
         st.text("")
         
-     if st.button("EJEMPLOS DE FALSAS LEVADURAS"):
-         st.text("1. Género Candida: es una levadura que puede formar pseudomicelio, realiza un")
+    if st.button("EJEMPLOS FALSAS LEVADURAS"):
+         zumos de fruta y vinos, deteriorándolos.st.text("1. Género Candida: es una levadura que puede formar pseudomicelio, realiza un")
          st.text("metabolismo oxidativo y crece formando velos sobre alimentos salados y de elevada") 
          st.text("acidez, deteriorándolos.")
         
