@@ -2,7 +2,6 @@ import datetime
 import time
 import pandas as pd
 import streamlit as st
-from PIL import Image
 
 @st.cache
 def run_fxn(n: int) -> list:
