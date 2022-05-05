@@ -30,7 +30,7 @@ def main():
         st.text("Las levaduras que contaminan los alimentos, con frecuencia son especies bien")
         st.text("conocidas que provocan cambios indeseables en ellos. Estos cambios pueden")
         st.text("manifestarse de dos formas, con una turbidez o una formación de una película")
-        st.text("en la superficie de los líquidos")
+        st.text("en la superficie de los líquidos.")
     else:
         st.text("")
         
