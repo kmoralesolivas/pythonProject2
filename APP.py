@@ -79,6 +79,22 @@ def main():
     
     else:
         st.text("")
+        
+     if st.button("EJEMPLOS DE FALSAS LEVADURAS"):
+        st.text("1. Género Candida: es una levadura que puede formar pseudomicelio, realiza un")
+        st.text("metabolismo oxidativo y crece formando velos sobre alimentos salados y de elevada") 
+        st.text("acidez, deteriorándolos.")
+        
+        st.text("2. Género Torulopsis: levaduras fermentativas, redondas u ovaladas, que se reproducen")
+        st.text("por gemación multilateral y son causa de muchos problemas en las cervecerías. Algunas")
+        st.text("especies pueden alterar la leche condensada, concentrados de frutas y alimentos de")
+        st.text("elevada acidez")
+        
+        st.text("3. Género Kloeckera: son levaduras apiculadas que crecen frecuentemente sobre frutas,")
+        st.text("zumos de fruta y vinos, deteriorándolos.")
+    
+    else:
+        st.text("")
     
     st.subheader("ENCUESTA")
     status = st.radio("APRENDI", ("SI", "NO"))
