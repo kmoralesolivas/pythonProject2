@@ -63,7 +63,7 @@ def main():
     else:
         st.text("")
         
-    if st.button("EJEMPLOS DE LEVADURAS")
+    if st.button("EJEMPLOS DE LEVADURAS"):
         st.text("Genero Schizosaccharomyces:Deterioro de frutas tropicales, melazas y miel.Se emplea")
         st.text("en la desacidificación de vinos, pues metaboliza el ácido málico en alcohol.")
         st.text("Género Saccharomyces:las especies de este género presentan generalmente células")
