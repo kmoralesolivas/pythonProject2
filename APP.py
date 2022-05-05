@@ -21,8 +21,8 @@ def main():
     st.subheader("TEMAS")
     if st.button("LEVADURAS"):
         st.text("Son hongos microscópicos, habitualmente unicelulares")
-        st.text("Aunque la apariciónen nuestros alimentos generalmente nos hace pensar que no es bueno, /n con las levaduras no es asi,/n pues llevan usandose de forma controlada miles de años."
-")
+        st.text("Aunque la apariciónen nuestros alimentos generalmente nos hace pensar que no es bueno,")
+        st. text ("con las levaduras no es asi,pues llevan usandose de forma controlada miles de años.")
     else:
         st.text("")
   
