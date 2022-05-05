@@ -13,11 +13,18 @@ def main():
     st.title("MICROBIOLOGIA")
     st.header("LEVADURAS")
     
-    st.header("Temas")
-    st.info("Información")
-  
-    st.subheader("ENCUESTA")
+    st.subheader("Registra la fecha de entrada")
+    today = st.date_input("Hoy es", datetime.datetime.now())
+    st.text(f"{today}")
+    st.subheader("Entrada de tiempo")
     
+    st.subheader("TEMAS")
+    if st.button("LEVADURAS"):
+        st.text("Hongos unicelulares")
+    else:
+        st.text("")
+    
+    st.subheader("ENCUESTA")
     status = st.radio("APRENDI", ("SI", "NO"))
     if status == "SI":
         st.success("EXCELENTE")
@@ -27,12 +34,6 @@ def main():
     st.subheader("SATISFACCION")
     level = st.slider("QUE TE PARECIO EL CONTENIDO?", 1, 5)
     st.write("Nivel:", level)
-    st.subheader("TEMAS")
-    
-    if st.button("LEVADURAS"):
-        st.text("Hongos unicelulares")
-    else:
-        st.text("")
     
     st.subheader("Deja aqui un comentario")
     message = st.text_area("Escriba un mensaje")
@@ -40,16 +41,7 @@ def main():
         result = message.title()
         st.success(result)
         
-    st.subheader("Entrada de fecha")
-    
-    today = st.date_input("Hoy es", datetime.datetime.now())
-    st.text(f"{today}")
-    st.subheader("Entrada de tiempo")
-    
-    the_time = st.time_input("La hora es:", datetime.time())
-    st.text(f"{the_time}")
     st.header("Trabajar con archivos de imágenes, audio o vídeos")
-    
     st.subheader("Archivo de imagen")
     img = Image.open("example.jpg")
     st.image(img, width=300, caption="Simple Imagen")
@@ -85,9 +77,7 @@ def main():
     st.table(df.head())
     st.subheader("gráfica")
     st.line_chart((df))
-    
-    st.sidebar.header("Acerca")
-    st.sidebar.text("Tutorial de streamlit ")
+   
     st.header("Trabajando con funciones")
     st.write(list(run_fxn(10)))
 if __name__ == "__main__":
