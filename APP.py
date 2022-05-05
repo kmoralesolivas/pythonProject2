@@ -23,7 +23,7 @@ def main():
     st.text(f"{today}")
     
     st.subheader("TEMAS")
-    if st.button("LEVADURAS"):
+    if st.button("DEFINICION"):
         st.text("Las levaduras son hongos microscópicos, habitualmente unicelulares. Aunque la")
         st.text("aparición en nuestros alimentos generalmente nos hace pensar que no es bueno,")
         st.text("cuando se usan de forma controloda pueden llegar a ser beneficiosas.")
